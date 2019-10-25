@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+body {
+  background-color: #444444;
+}
+
+.stylo-flex {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.stylo-full {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.styloflex-full {
+  flex: auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1%;
+}
+
+.styloflex-half {
+  flex: auto;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 1%;
+}
+
+.stylo-background {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.st-he1 {
+  height: 50px;
+}
+
+.st-he2 {
+  height: 100px;
+}
+
+.st-he3 {
+  height: 150px;
+}
+
+.st-he4 {
+  height: 200px;
+}
