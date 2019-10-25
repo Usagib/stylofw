@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
-body {
-  background-color: #444444;
-}
-
 .stylo-flex {
   height: 100%;
   width: 100%;
@@ -30,6 +26,28 @@ body {
   margin: 1%;
 }
 
+.styloflex-half-to-full {
+  flex: auto;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 1%;
+}
+
+
+.styloflex-quarter {
+  flex: auto;
+  box-sizing: border-box;
+  width: 25%;
+  margin: 1%;
+}
+
+.styloflex-sixth {
+  flex: auto;
+  box-sizing: border-box;
+  width: 16%;
+  margin: 1%;
+}
+
 .stylo-background {
   background-image: url("../img/bg.jpg");
   background-position: center;
@@ -52,3 +70,36 @@ body {
 .st-he4 {
   height: 200px;
 }
+
+.st-he5 {
+  height: 250px;
+}
+
+.st-he6 {
+  height: 300px;
+}
+
+.st-he7 {
+  height: 350px;
+}
+
+.st-he8 {
+  height: 400px;
+}
+
+.st-he9 {
+  height: 450px;
+}
+
+.st-he10 {
+  height: 500px;
+}
+
+/*
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 1200px) { ... }
+
+*/
