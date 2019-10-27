@@ -1,36 +1,99 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
-.stylo-flex {
+.styloflex {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
-.stylo-full {
+.stylo {
+  display: flex;
+  margin: 0 1%;
+  box-sizing: border-box;
+  height: auto;
+  flex-wrap: nowrap;
+}
+
+.stylo-1 {
   width: 100%;
   height: auto;
   box-sizing: border-box;
+  margin: 1% 0;
 }
 
-.styloflex-full {
-  flex: auto;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 1%;
-}
-
-.styloflex-half {
-  flex: auto;
+.stylo-2 {
   width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+  margin: 1% 0;
+}
+
+.stylo-4 {
+  width: 25%;
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+}
+
+.stylo-6 {
+  width: 16%;
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+}
+
+.st-1 {
+  width: 100%;
+  margin: 1%;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.st-1-h1 {
+  width: 100%;
+  margin: 1%;
+  box-sizing: border-box;
+  height: 100px;
+}
+
+.st-1-h5 {
+  width: 100%;
+  margin: 1%;
+  box-sizing: border-box;
+  height: 250px;
+}
+
+
+.st-2-h1 {
+  width: 48%;
   box-sizing: border-box;
   margin: 1%;
+  height: 100px;
+  float: left;
+}
+
+.st-2-h5 {
+  width: 48%;
+  box-sizing: border-box;
+  margin: 1%;
+  height: 250px;
+  float: left;
 }
 
 .styloflex-half-to-full {
-  flex: auto;
-  width: 50%;
+  width: 48%;
   box-sizing: border-box;
   margin: 1%;
+}
+
+.stflx-2-h2-1 {
+  width: 48%;
+  box-sizing: border-box;
+  margin: 1%;
+  height: 100px;
 }
 
 
@@ -95,11 +158,25 @@
   height: 500px;
 }
 
+@media (max-width: 920px) {
+  .styloflex-half-to-full {
+    width: 100%;
+  }
+
+  .stflx-2-h2-1 {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1%;
+    height: 50px;
+  }
+
+ }
+
 /*
 @media (min-width: 576px) { ... }
 
 @media (min-width: 768px) { ... }
 
-@media (min-width: 1200px) { ... }
+
 
 */
