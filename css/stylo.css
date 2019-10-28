@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
-.styloflex {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+body {
   margin: 0;
+}
+
+:root {
+  --width1: 100%;
+  --width2: 50%;
+}
+
+.stylorow {
+  width: 99%;
+  height: auto;
+  margin: 0.25% 0;
+  box-sizing: border-box;
+  background-color: teal;
+  display: flex;
 }
 
 .stylo {
@@ -14,13 +24,18 @@
   box-sizing: border-box;
   height: auto;
   flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
 }
 
 .stylo-1 {
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  margin: 1% 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .stylo-2 {
@@ -28,11 +43,19 @@
   height: auto;
   box-sizing: border-box;
   float: left;
-  margin: 1% 0;
 }
 
-.stylo-4 {
-  width: 25%;
+.stylo-3 {
+  width: calc(100%/3);
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+}
+
+.stylo-3-mlr1 {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  width: calc((100% / 3) - 1%);
   height: auto;
   box-sizing: border-box;
   float: left;
@@ -46,33 +69,44 @@
 }
 
 .st-1 {
-  width: 100%;
-  margin: 1%;
+  width: auto;
   box-sizing: border-box;
   height: auto;
+  text-align: center;
 }
 
 .st-1-h1 {
   width: 100%;
-  margin: 1%;
   box-sizing: border-box;
   height: 100px;
+  margin: 0 0.5%;
 }
 
 .st-1-h5 {
   width: 100%;
-  margin: 1%;
   box-sizing: border-box;
-  height: 250px;
+  height: 500px;
 }
 
-
 .st-2-h1 {
-  width: 48%;
+  width: 49%;
   box-sizing: border-box;
-  margin: 1%;
+  margin: 0 0.5%;
   height: 100px;
-  float: left;
+}
+
+.st-2-h1-1 {
+  width: 49%;
+  box-sizing: border-box;
+  margin: 0 0.5%;
+  height: 100px;
+}
+
+.st-2-h1-nogutter {
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0;
+  height: 100px;
 }
 
 .st-2-h5 {
@@ -81,19 +115,6 @@
   margin: 1%;
   height: 250px;
   float: left;
-}
-
-.styloflex-half-to-full {
-  width: 48%;
-  box-sizing: border-box;
-  margin: 1%;
-}
-
-.stflx-2-h2-1 {
-  width: 48%;
-  box-sizing: border-box;
-  margin: 1%;
-  height: 100px;
 }
 
 
@@ -118,56 +139,16 @@
   background-size: cover;
 }
 
-.st-he1 {
-  height: 50px;
-}
 
-.st-he2 {
-  height: 100px;
-}
+@media (min-width: 920px) {
 
-.st-he3 {
-  height: 150px;
-}
-
-.st-he4 {
-  height: 200px;
-}
-
-.st-he5 {
-  height: 250px;
-}
-
-.st-he6 {
-  height: 300px;
-}
-
-.st-he7 {
-  height: 350px;
-}
-
-.st-he8 {
-  height: 400px;
-}
-
-.st-he9 {
-  height: 450px;
-}
-
-.st-he10 {
-  height: 500px;
-}
-
-@media (max-width: 920px) {
   .styloflex-half-to-full {
     width: 100%;
   }
 
-  .stflx-2-h2-1 {
-    width: 100%;
-    box-sizing: border-box;
-    margin: 1%;
-    height: 50px;
+  .st-2-h1-1 {
+    width: 99%;
+    flex-wrap: nowrap;
   }
 
  }
