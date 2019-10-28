@@ -1,163 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
-body {
-  margin: 0;
-}
 
 :root {
-  --width1: 100%;
-  --width2: 50%;
+  --width: 100%;
+  --widthparent: 100%;
 }
 
 .stylorow {
-  width: 99%;
-  height: auto;
-  margin: 0.25% 0;
-  box-sizing: border-box;
-  background-color: teal;
-  display: flex;
-}
-
-.stylo {
-  display: flex;
-  margin: 0 1%;
-  box-sizing: border-box;
-  height: auto;
-  flex-wrap: nowrap;
   width: 100%;
   height: auto;
-  flex-direction: column;
+  margin-bottom: 1%;
+  background-color: teal;
+  display: flex;
 }
 
 .stylo-1 {
   width: 100%;
   height: auto;
-  box-sizing: border-box;
-  margin: 0;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 
 .stylo-2 {
   width: 50%;
+  display: flex;
+  flex-flow: row wrap;
   height: auto;
-  box-sizing: border-box;
-  float: left;
 }
 
-.stylo-3 {
-  width: calc(100%/3);
-  height: auto;
-  box-sizing: border-box;
-  float: left;
-}
-
-.stylo-3-mlr1 {
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  width: calc((100% / 3) - 1%);
-  height: auto;
-  box-sizing: border-box;
-  float: left;
-}
-
-.stylo-6 {
-  width: 16%;
-  height: auto;
-  box-sizing: border-box;
-  float: left;
-}
-
-.st-1 {
-  width: auto;
-  box-sizing: border-box;
-  height: auto;
-  text-align: center;
-}
-
-.st-1-h1 {
-  width: 100%;
-  box-sizing: border-box;
-  height: 100px;
-  margin: 0 0.5%;
-}
-
-.st-1-h5 {
-  width: 100%;
-  box-sizing: border-box;
-  height: 500px;
-}
-
-.st-2-h1 {
-  width: 49%;
-  box-sizing: border-box;
-  margin: 0 0.5%;
-  height: 100px;
-}
-
-.st-2-h1-1 {
-  width: 49%;
-  box-sizing: border-box;
-  margin: 0 0.5%;
-  height: 100px;
-}
-
-.st-2-h1-nogutter {
+.st-2 {
   width: 50%;
-  box-sizing: border-box;
-  margin: 0;
-  height: 100px;
 }
-
-.st-2-h5 {
-  width: 48%;
-  box-sizing: border-box;
-  margin: 1%;
-  height: 250px;
-  float: left;
-}
-
-
-.styloflex-quarter {
-  flex: auto;
-  box-sizing: border-box;
-  width: 25%;
-  margin: 1%;
-}
-
-.styloflex-sixth {
-  flex: auto;
-  box-sizing: border-box;
-  width: 16%;
-  margin: 1%;
-}
-
-.stylo-background {
-  background-image: url("../img/bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-@media (min-width: 920px) {
-
-  .styloflex-half-to-full {
-    width: 100%;
-  }
-
-  .st-2-h1-1 {
-    width: 99%;
-    flex-wrap: nowrap;
-  }
-
- }
-
-/*
-@media (min-width: 576px) { ... }
-
-@media (min-width: 768px) { ... }
-
-
-
-*/
