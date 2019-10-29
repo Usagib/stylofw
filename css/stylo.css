@@ -4,7 +4,7 @@
 :root {
   --width: 100%;
   --height: 100px;
-  --margin: 1%;
+  --margin: 0.5%;
 }
 
 .stylorow {
@@ -45,6 +45,11 @@
 [class^="st"] {
   box-sizing: border-box;
   flex: auto;
+}
+
+[class^="st0"] {
+  width: 0%;
+  height: 0%;
 }
 
 [class^="st1"] {
@@ -90,11 +95,31 @@
   margin: calc(var(--margin) / 2);
 }
 
-.hauto {
+.heauto {
   height: auto;
 }
 
-@media screen and (max-width: 1020px) {
+.he1 {
+  height: 50px;
+}
+
+.he2 {
+  height: 100px;
+}
+
+.he3 {
+  height: 200px;
+}
+
+.he4 {
+  height: 250px;
+}
+
+.he5 {
+  height: 500px;
+}
+
+@media screen and (max-width: 1200px) {
 
   .sthid-lg {
     display: none;
@@ -114,7 +139,26 @@
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 950px) {
+  [class^="st1-0"] {
+    width: 0%;
+    height: 0%;
+  }
+
+  [class^="st2-0"] {
+    width: 0%;
+    height: 0%;
+  }
+
+  [class^="st3-0"] {
+    width: 0%;
+    height: 0%;
+  }
+
+  [class^="st4-0"] {
+    width: 0%;
+    height: 0%;
+  }
 
   [class^="st1-1"] {
     width: 100%;
@@ -214,7 +258,12 @@
 
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 720px) {
+
+  [class^="st1-1-0"] {
+    width: 0%;
+    height: 0%;
+  }
 
   [class^="st1-1-1"] {
     width: 100%;
