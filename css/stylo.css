@@ -3,15 +3,14 @@
 
 :root {
   --width: 100%;
-  --widthparent: 100%;
   --height: 100px;
+  --margin: 1%;
 }
 
 .stylorow {
   width: 100%;
   height: auto;
-  margin-bottom: 1%;
-  background-color: teal;
+  margin-bottom: 0.5%;
   display: flex;
 }
 
@@ -37,462 +36,519 @@
 }
 
 .stylo-4 {
-  width: calc( var(--width) / 4 );
+  width: calc( (var(--width) / 4 ) - var( --margin ) );
   display: flex;
   flex-flow: row wrap;
   height: auto;
 }
 
-.st1 {
-  width: calc( var(--width));
+[class^="st"] {
+  box-sizing: border-box;
+  flex: auto;
+}
+
+[class^="st1"] {
+  width: 100%;
   height: calc( var(--height));
 }
 
-.st-2 {
-  width: calc( var(--width) / 2 );
+[class^="st2"] {
+  width: calc( (var(--width) / 2 ) - var( --margin ) );
   height: calc( var(--height) );
 }
 
-.st-3 {
-  width: calc( var(--width) / 3 );
+[class^="st3"] {
+  width: calc( (var(--width) / 3 ) - var( --margin ) );
   height: calc( var(--height));
 }
 
-.st-4 {
-  width: calc( var(--width) / 4 );
+[class^="st4"] {
+  width: calc( (var(--width) / 4 ) - var( --margin ) );
   height: calc( var(--height));
 }
-
 
 .st-bg {
   background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sthid {
+  display: none;
+}
+
+.stpad {
+  padding: 0.5%;
+}
+
+.stgtr {
+  margin: calc(var(--margin) / 2);
+}
+
+.stylo-gutter > div {
+  margin: calc(var(--margin) / 2);
+}
+
+.hauto {
+  height: auto;
 }
 
 @media screen and (max-width: 1020px) {
-  [class^="st1"] {
-    width: calc( var(--width));
-    height: calc( var(--height));
+
+  .sthid-lg {
+    display: none;
   }
 
-  [class^="st2"] {
-    width: calc( var(--width) / 2 );
-    height: calc( var(--height) );
+  .sthid-lg-md {
+    display: none;
   }
 
-  [class^="st3"] {
-    width: calc( var(--width) / 3 );
-    height: calc( var(--height));
+  .sthid-lg-sm {
+    display: none;
   }
 
-  [class^="st4"] {
-    width: calc( var(--width) / 4 );
-    height: calc( var(--height));
+  .sthid-lg-md-sm {
+    display: none;
   }
+
 }
 
 @media screen and (max-width: 720px) {
 
   [class^="st1-1"] {
-    width: calc( var(--width));
-    height: calc( var(--height));
+    width: 100%;
+    height: calc( var(--height) );
   }
 
   [class^="st1-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st1-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st2-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st2-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st3-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st3-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st4-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st4-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
+  }
+
+  .sthid-md {
+    display: none;
+  }
+
+  .sthid-lg-md {
+    display: none;
+  }
+
+  .sthid-md-sm {
+    display: none;
+  }
+
+  .sthid-lg-md-sm {
+    display: none;
   }
 
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 575px) {
 
   [class^="st1-1-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st1-1-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st1-1-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-1-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-2-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st1-2-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st1-2-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-2-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-3-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st1-3-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st1-3-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-3-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-4-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st1-4-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st1-4-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st1-4-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-1-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st2-1-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st2-1-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-1-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-2-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st2-2-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st2-2-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-2-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-3-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st2-3-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st2-3-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-3-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-4-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st2-4-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st2-4-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st2-4-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-1-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st3-1-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st3-1-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-1-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-2-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st3-2-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st3-2-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-2-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-3-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st3-3-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st3-3-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-3-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-4-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st3-4-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st3-4-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st3-4-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-1-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st4-1-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st4-1-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-1-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-2-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st4-2-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st4-2-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-2-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-3-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st4-3-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st4-3-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-3-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-4-1"] {
-    width: calc( var(--width));
+    width: 100%;
     height: calc( var(--height));
   }
 
   [class^="st4-4-2"] {
-    width: calc( var(--width) / 2 );
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
     height: calc( var(--height) );
   }
 
   [class^="st4-4-3"] {
-    width: calc( var(--width) / 3 );
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
     height: calc( var(--height));
   }
 
   [class^="st4-4-4"] {
-    width: calc( var(--width) / 4 );
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
     height: calc( var(--height));
+  }
+
+  .sthid-sm {
+    display: none;
+  }
+
+  .sthid-lg-sm {
+    display: none;
+  }
+
+  .sthid-md-sm {
+    display: none;
+  }
+
+  .sthid-lg-md-sm {
+    display: none;
   }
 }
