@@ -137,6 +137,10 @@
     display: none;
   }
 
+  .align {
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 950px) {
