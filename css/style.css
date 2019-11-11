@@ -4,8 +4,21 @@
   padding-top: 40px;
 }
 
+body {
+  padding: 0 8%;
+}
+
 a {
   text-decoration: none;
+}
+
+.medium-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #111;
+    text-align: left;
+    padding-right: : 5px;
 }
 
 .nav-bar {
@@ -13,8 +26,48 @@ a {
   background-color: black;
 }
 
+.top-title {
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.leftimg-article {
+  height: 105px;
+}
+
+
+.leftimg-article-sm {
+  margin-top: 5px;
+  height: 80px;
+  border-bottom: 1px solid gray;
+}
+
+.overlay-title {
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.toptitle {
+    background-color: #ddd;
+    width: 98%;
+    margin: 0 1%;
+    padding: 2% 0;
+}
+
+.l-img {
+  float: left;
+  margin: 0 2%;
+}
+
+
 .main-img {
-  width: 100%;
+  width: 98%;
+  margin: 1%;
 }
 
 .maintitle {
@@ -33,16 +86,44 @@ a {
 
 .subtitle {
   font-family: 'Roboto', sans-serif;
-  font-size: .9em;
+  font-size: 1em;
   font-weight: 600;
   color: #111;
+  margin: 0 1%;
+}
+
+.big-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #111;
+  margin: 0 1%;
+}
+
+.mainarticle {
+  width: 100%;
+  height: auto;
 }
 
 .main-related {
   font-family: 'Roboto', sans-serif;
-  font-size: .9em;
-  font-weight: 400;
-  color: gray;
-  margin: 20px 0;
-  border-top: 1px solid gray;
+  font-size: 1em;
+  font-weight: 300;
+  color: #555;
+}
+
+.newslist {
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+  align-items: baseline;
+  padding: 5px;
+}
+
+a :hover {
+  color: #CC0000;
+}
+
+.pre-title {
+  text-transform: uppercase;
+  color: #CC0000;
 }

@@ -4,10 +4,8 @@
 :root {
   --width: 100%;
   --widthparent: 100%;
-}
-
-.stylo {
-  margin: 0 5%;
+  --height: auto;
+  --margin: 0.5%;
 }
 
 .stylorow {
