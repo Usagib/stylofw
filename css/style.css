@@ -1,0 +1,48 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+.marginfix {
+  padding-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  height: 40px;
+  background-color: black;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.maintitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #111;
+}
+
+.main-title {
+  vertical-align: middle;
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+  font-weight: 600;
+  color: #111;
+}
+
+.main-related {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+  font-weight: 400;
+  color: gray;
+  margin: 20px 0;
+  border-top: 1px solid gray;
+}

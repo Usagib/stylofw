@@ -6,6 +6,10 @@
   --widthparent: 100%;
 }
 
+.stylo {
+  margin: 0 5%;
+}
+
 .stylorow {
   width: 100%;
   height: auto;
@@ -50,6 +54,18 @@
   flex: auto;
 }
 
+.title {
+  font-family: 'Mansalva', cursive;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  text-align-last: center;
+}
+
+.title:hover{
+  color: orange;
+}
+
 [class^="st1"] {
   width: 100%;
   height: calc( var(--height));
@@ -76,6 +92,28 @@
   background-position: center;
   background-size: cover;
 }
+
+.st-bg1 {
+  background-image: url("../img/bg1-01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.st-bg2 {
+  background-image: url("../img/b2-01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.st-bg21 {
+  background-image: url("../img/bg2-01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 
 .stpad {
   padding: 0.5%;
