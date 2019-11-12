@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+.livedemo {
+  font-family: 'Mansalva', cursive;
+  font-size: 3rem;
+  color: white;
+}
 
+a {
+  text-decoration: none;
+}
+
+.livedemo1 {
+  font-family: 'Mansalva', cursive;
+  font-size: 50px;
+  color: black;
+}
+
+.livedemo:hover {
+  color: red;
+}
+
+.showcaseimg {
+  width: 80%;
+  margin: 5px 10%;
+}
+
+.align {
+  text-align: center;
+}
+
+.st-bgblack {
+  background-color: black;
+}
 
 :root {
   --width: 100%;
@@ -49,7 +80,7 @@
 
 [class^="st"] {
   box-sizing: border-box;
-  flex: auto;
+  flex:auto;
 }
 
 .title {
