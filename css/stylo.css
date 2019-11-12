@@ -9,10 +9,14 @@ a {
   text-decoration: none;
 }
 
-.livedemo1 {
+.livedemo1, .livedemo2 {
   font-family: 'Mansalva', cursive;
   font-size: 50px;
   color: black;
+}
+
+.livedemo2:hover {
+  color: purple;
 }
 
 .livedemo:hover {
