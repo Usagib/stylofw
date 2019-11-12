@@ -64,26 +64,6 @@
   color: orange;
 }
 
-[class^="st1"] {
-  width: 100%;
-  height: calc( var(--height));
-}
-
-[class^="st2"] {
-  width: calc( (var(--width) / 2 ) - var( --margin ) );
-  height: calc( var(--height) );
-}
-
-[class^="st3"] {
-  width: calc( (var(--width) / 3 ) - var( --margin ) );
-  height: calc( var(--height));
-}
-
-[class^="st4"] {
-  width: calc( (var(--width) / 4 ) - var( --margin ) );
-  height: calc( var(--height));
-}
-
 .st-bg {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
@@ -157,12 +137,35 @@
   width: auto;
 }
 
-@media screen and (max-width: 1024px) {
+.nowrap {
+  flex-wrap: nowrap;
+}
 
+@media screen and (min-width: 1024px) {
+
+  [class^="st1"] {
+    width: 100%;
+    height: calc( var(--height));
+  }
+
+  [class^="st2"] {
+    width: calc( (var(--width) / 2 ) - var( --margin ) );
+    height: calc( var(--height) );
+  }
+
+  [class^="st3"] {
+    width: calc( (var(--width) / 3 ) - var( --margin ) );
+    height: calc( var(--height));
+  }
+
+  [class^="st4"] {
+    width: calc( (var(--width) / 4 ) - var( --margin ) );
+    height: calc( var(--height));
+  }
 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   [class^="st1-1"] {
     width: 100%;
     height: calc( var(--height) );

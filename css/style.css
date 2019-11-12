@@ -4,12 +4,35 @@
   padding-top: 40px;
 }
 
-body {
+.stylo {
   padding: 0 8%;
 }
 
 a {
   text-decoration: none;
+}
+
+.navigation {
+  background-color: black;
+  height: 40px;
+}
+
+.logofix {
+  margin-left: 5%;
+}
+
+.navigation-left a {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  float: left;
+  color: white;
+  padding: 12px 5px;
+}
+
+.navigation-right img {
+  float: right;
+  padding: 1%;
 }
 
 .medium-subtitle {
@@ -136,4 +159,115 @@ a :hover {
 .pre-title {
   text-transform: uppercase;
   color: #CC0000;
+}
+
+.cnnlogo {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.follow {
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  margin-top: 10px;
+  margin-right: -30%;
+}
+
+.footerwrap {
+  background-color: black;
+}
+
+.social {
+  text-align: right;
+  margin-right: 1%;
+  margin-top: 10px;
+}
+
+.wrapfix {
+  flex-wrap: nowrap;
+}
+
+.marginfixfooter {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.footer2 {
+  text-align: center;
+}
+
+.footer2 a {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 10px 10px;
+  color: white;
+}
+
+.footer3 {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 10px 10px;
+  color: white;
+  text-align: left;
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .follow {
+    text-align: center;
+    margin: 0;
+  }
+
+  .social {
+    text-align: center;
+    margin: 0;
+  }
+
+  .cnnlogo {
+    margin: 0;
+  }
+
+  .footercontainer {
+    text-align: center;
+  }
+
+  .mdhide {
+    display: none;
+  }
+
+  .navigation-left a {
+    display: none;
+  }
+
+  .stylo {
+    padding: 0 2%;
+  }
+
+  .mdwrapfix {
+    flex-wrap: wrap;
+  }
+
+  .mdblankfix {
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .smblankfix {
+    height: 10px;
+  }
+
+  .big-subtitle {
+    font-size: 1em;
+    font-weight: 500;
+  }
 }
