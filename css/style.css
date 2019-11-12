@@ -37,6 +37,16 @@ a {
   height: 105px;
 }
 
+.sectiontitle{
+  width: 100%;
+  border-bottom: 15px double #ddd;
+}
+
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 300;
+}
 
 .leftimg-article-sm {
   margin-top: 5px;
