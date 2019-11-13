@@ -14,13 +14,13 @@ with 3 predefined breakpoints for mobile, tablet and desktop devices we can use 
 
 ### How to have Stylo:
 Basic Stylofw structure:
-*<div class="stylorow">
+<div class="stylorow">
   <div class="stylo-1">
     <div class="st1-1-1">
       <span>100% width in all viewport sizes</span>
     </div>
   </div>
-</div>*
+</div>
 
 **.stylorow {Creates a row with auto height}
 .stylo-1 {Creates an entire width (100%) wrapper}
@@ -43,7 +43,7 @@ ej:
 
 ### Stylo Working!
 ej:
-*<div class="stylorow">
+  <div class="stylorow">
         <div class="stylo-1 stylo-gutter">
           <div class="st3-2-1 st-bgblack">
             <h1 class="title">st3-2-1</h1>
@@ -70,7 +70,7 @@ ej:
             <img class="showcaseimg" src="img/b2-01.png" alt="">
           </div>
         </div>
-  </div>*
+  </div>
 
 ### large screens
 ![screenshot1](img/screen1.png)
