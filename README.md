@@ -14,19 +14,20 @@ with 3 predefined breakpoints for mobile, tablet and desktop devices we can use 
 
 ### How to have Stylo:
 Basic Stylofw structure:
-<div class="stylorow">
+<!-- <div class="stylorow">
   <div class="stylo-1">
     <div class="st1-1-1">
       <span>100% width in all viewport sizes</span>
     </div>
   </div>
-</div>
+</div> -->
 
 **.stylorow {Creates a row with auto height}
 .stylo-1 {Creates an entire width (100%) wrapper}
 .stylo-2 {Creates a half width (50%) wrapper}
 .stylo-3 {Creates a third width (33%) wrapper}
 .stylo-4 {Creates a quarter width (25%) wrapper}**
+
 stylo-1 to stylo-4 help us divide the row in as many wrappers as we like with auto height
 
 ### stLG-MD-SM responsive classes
@@ -43,7 +44,7 @@ ej:
 
 ### Stylo Working!
 ej:
-  <div class="stylorow">
+  <!--<div class="stylorow">
         <div class="stylo-1 stylo-gutter">
           <div class="st3-2-1 st-bgblack">
             <h1 class="title">st3-2-1</h1>
@@ -70,7 +71,7 @@ ej:
             <img class="showcaseimg" src="img/b2-01.png" alt="">
           </div>
         </div>
-  </div>
+  </div> -->
 
 ### large screens
 ![screenshot1](img/screen1.png)
