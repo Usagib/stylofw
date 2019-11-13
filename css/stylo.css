@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
 .livedemo {
   font-family: 'Mansalva', cursive;
   font-size: 3rem;
@@ -9,7 +10,8 @@ a {
   text-decoration: none;
 }
 
-.livedemo1, .livedemo2 {
+.livedemo1,
+.livedemo2 {
   font-family: 'Mansalva', cursive;
   font-size: 50px;
   color: black;
@@ -84,7 +86,7 @@ a {
 
 [class^="st"] {
   box-sizing: border-box;
-  flex:auto;
+  flex: auto;
 }
 
 .title {
