@@ -8,19 +8,19 @@ You can find the original project specification at: https://www.theodinproject.c
 Stylofw allows us to create complex responsive layouts with just a few classes added to our HTML.
 with 3 predefined breakpoints for mobile, tablet and desktop devices we can use only 1 class to define the container's behavior over 3 different viewports.
 
-[Check the Stylofw Showcase!] (https://usagib.github.io/stylo)
+[Check the Stylofw Showcase!](https://usagib.github.io/stylo)
 
-[Check the CNN page cloned with Stylo!] (https://usagib.github.io/stylo/demo.html)
+[Check the CNN page cloned with Stylo!](https://usagib.github.io/stylo/demo.html)
 
 ### How to have Stylo:
 Basic Stylofw structure:
-`<div class="stylorow">
+*<div class="stylorow">
   <div class="stylo-1">
     <div class="st1-1-1">
       <span>100% width in all viewport sizes</span>
     </div>
   </div>
-</div>`
+</div>*
 
 **.stylorow {Creates a row with auto height}
 .stylo-1 {Creates an entire width (100%) wrapper}
@@ -43,7 +43,7 @@ ej:
 
 ### Stylo Working!
 ej:
-`<div class="stylorow">
+*<div class="stylorow">
         <div class="stylo-1 stylo-gutter">
           <div class="st3-2-1 st-bgblack">
             <h1 class="title">st3-2-1</h1>
@@ -70,16 +70,16 @@ ej:
             <img class="showcaseimg" src="img/b2-01.png" alt="">
           </div>
         </div>
-  </div>`
+  </div>*
 
 ### large screens
-![alt text](img\screen1.png)
+![screenshot1](img/screen1.png)
 
 ### medium screens
-![alt text](img\screen2.png)
+![screendhot2](img/screen2.png)
 
 ### small screens
-![alt text](img\screen3.png)
+![screenshot3](img/screen3.png)
 
 ### Use st classes to make your own responsive layout!
 
