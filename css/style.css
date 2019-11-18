@@ -36,12 +36,12 @@ a {
 }
 
 .medium-subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    color: #111;
-    text-align: left;
-    padding-right: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #111;
+  text-align: left;
+  padding-right: 5px;
 }
 
 .nav-bar {
