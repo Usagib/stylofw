@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
+:root {
+  --width: 100%;
+  --widthparent: 100%;
+  --height: auto;
+  --margin: 0.5%;
+}
+
 .livedemo {
   font-family: 'Mansalva', cursive;
   font-size: 3rem;
@@ -18,11 +25,11 @@ a {
   color: black;
 }
 
-.livedemo2 :hover {
+.livedemo2:hover {
   color: purple;
 }
 
-.livedemo :hover {
+.livedemo:hover {
   color: red;
 }
 
@@ -37,13 +44,6 @@ a {
 
 .st-bgblack {
   background-color: black;
-}
-
-:root {
-  --width: 100%;
-  --widthparent: 100%;
-  --height: auto;
-  --margin: 0.5%;
 }
 
 .stylorow {
@@ -98,7 +98,7 @@ a {
   text-align-last: center;
 }
 
-.title:hover{
+.title:hover {
   color: orange;
 }
 
@@ -147,7 +147,7 @@ a {
 }
 
 .he1 {
-  height: 50px
+  height: 50px;
 }
 
 .he2 {
@@ -164,10 +164,6 @@ a {
 
 .he5 {
   height: 500px;
-}
-
-.align {
-  text-align: center;
 }
 
 .stylo-img {
@@ -441,7 +437,6 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-
   [class^="st1"] {
     width: 100%;
     height: calc(var(--height));
@@ -1397,5 +1392,4 @@ a {
     width: calc((var(--width) / 4) - var(--margin));
     height: calc(var(--height));
   }
-
 }
