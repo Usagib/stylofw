@@ -217,10 +217,6 @@ a :hover {
   text-align: left;
 }
 
-@media screen and (min-width: 1024px) {
-
-}
-
 @media screen and (max-width: 768px) {
   .follow {
     text-align: center;
