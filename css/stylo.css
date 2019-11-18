@@ -305,11 +305,11 @@ a {
 }
 
 .fontsize-1 {
-  font-size: .5rem;
+  font-size: 0.5rem;
 }
 
 .fontsize-2 {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .fontsize-3 {
@@ -632,7 +632,7 @@ a {
 
   .lg-none {
     display: none;
-   }
+  }
 }
 
 @media screen and (max-width: 768px) {
