@@ -1,18 +1,37 @@
-# Stylo FRAMEWORK
-## A quick responsive-layout building Framework
-This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.
+<br />
+<p align="center">
+ <a href="https://github.com/Usagib/stylofw">
+   <img src="img/logo-01.png" alt="Logo" style="width: 50%;">
 
-You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework
+ </a>
 
-### Overview
-Stylofw allows us to create complex responsive layouts with just a few classes added to our HTML.
-with 3 predefined breakpoints for mobile, tablet and desktop devices we can use only 1 class to define the container's behavior over 3 different viewports.
+ <h3 align="center">Grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.</h3>
 
-## [Check the Stylofw Showcase!](https://usagib.github.io/projects/stylo)
+ <p align="center">
+  Stylofw allows us to create complex responsive layouts using just a few classes on our HTML with 3 predefined breakpoints for mobile, tablet, and desktop   
+   <br />
+ </p>
+</p>
 
-## [Check the CNN page cloned with Stylo!](https://usagib.github.io/projects/stylo/demo.html)
+## Table of Contents
 
-### How to have Stylo:
+* [About the Project](#about-the-project)
+* [How to install](#how-to-install)
+* [How to have Stylo](#how-to-have-stylo)
+* [Stylo Working](#stylo-working)
+* [Screenshots](#screenshots)
+* [Contact](#contact)
+
+## About The Project
+
+RESTful API developed using Ruby on Rails, Json Web Token and bcrypt to ensure log security and deployed to heroku, Frontend built with React / Redux and bootstrap.
+
+## How to install
+- copy css/stylo.css to your project
+- import stylo to your html file
+- start using any of stylo's pre-defined classes
+
+## How to have Stylo
 Basic Stylofw structure:
 
 > <div class="stylorow">
@@ -43,7 +62,7 @@ ej:
 3. the following class will be 100% (/1) width in 420px screens
 4. containers following the same class will auto-wrap in each breakpoint
 
-### Stylo Working!
+## Stylo Working
 ej:
 > <div class="stylorow">
         <div class="stylo-1 stylo-gutter">
@@ -74,6 +93,7 @@ ej:
         </div>
 >  </div>
 
+## Screenshots
 
 ### large screens
 ![screenshot1](img/screen1.png)
@@ -87,39 +107,49 @@ ej:
 ### Use st classes to make your own responsive layout!
 
 ## Additional classes
-- .align {alingn text to center}
+- .align {align text to the center}
 - .st-bgblack {adds black background to container}
 - .fixed {fix container position}
 - .title {Mansalva font with 1.5rem size}
 - .st-bg {adds stylo background 1 to container}
 - .st-bg1 {adds stylo background 2 to container}
 - .st-bg2 {adds stylo background 3 to container}
-- .mg-[sm md lg]-[left right top bottom]-[0 1 2 3] {adds margin with a direct size on selected viewport} **ej .mg-lg-left-3**
-- .mg-[sm md lg]-[size 0-3] {adds all margins on selected viewport} **ej .mg-sm-3**
-- .pd-[sm md lg]-[left right top bottom]-[0 1 2 3] {adds padding with a direct size on selected viewport} **ej .pd-lg-left-3**
-- .pd-[sm md lg]-[size 0-3] {adds all paddings on selected viewport} **ej .pd-sm-3**
+- .mg-[sm md lg]-[left right top bottom]-[0 1 2 3] {adds margin with a direct size on a selected viewport} **ej .mg-lg-left-3**
+- .mg-[sm md lg]-[size 0-3] {adds all margins on a selected viewport} **ej .mg-sm-3**
+- .pd-[sm md lg]-[left right top bottom]-[0 1 2 3] {adds padding with a direct size on a selected viewport} **ej .pd-lg-left-3**
+- .pd-[sm md lg]-[size 0-3] {adds all paddings on a selected viewport} **ej .pd-sm-3**
 - .float[left right center] {applies float property} **ej. .floatright**
 - .clear[left right both] {applies clear to float} **ej. clearleft**
-- .flex {applies flex property to container}
-- .hidden {hids display}
-- .[lg md sm]-none { sets display property to none for selected viewprot} **ej md-none**
-- .align-[h v]-[left right top bottom center] {sets vertical or horizontal aligment} **ej. align-v-bottom**
+- .flex {applies flex property to the container}
+- .hidden {hides display}
+- .[lg md sm]-none { sets display property to none for selected viewport} **ej md-none**
+- .align-[h v]-[left right top bottom center] {sets the vertical or horizontal alignment} **ej. align-v-bottom**
 - .st-stbg-[1-10] {sets stylo custom color scheme background and font from 1-10}
 - .aligntext-[left right center] {aligns text}
 - .fontsize-[1-5] {sets the font size} **ej .fontsize-4**
-- .fontbold {sets font weight to bold}
-- .fontnormal {sets font weight to normal}
-- .fontlight {sets font weight to light}
-- .border[top bottom left right] {sets border to specific position }
+- .fontbold {sets font-weight to bold}
+- .fontnormal {sets font-weight to normal}
+- .fontlight {sets font-weight to light}
+- .border[top bottom left right] {sets border to a specific position}
 - .border {sets all borders to normal solid}
-- .border[top bottom left right]-[light bold] {sets border to specific position lighter or bolder }
+- .border[top bottom left right]-[light bold] {sets border to a specific position lighter or bolder}
 - .border-[light bold] {sets all borders to light or bold solid}
 - .borderround {sets round border corner}
-- .bordercircle {defines border as a circle}
-- .stylo-gutter {adds gutters to all divisiors on container}
+- .bordercircle {defines the border as a circle}
+- .stylo-gutter {adds gutters to all divs on the container}
 - .he1 to .he5 {defines fixed height 50px to 500px}
 - .nowrap {avoids row wrapping}
 
-## [Check the Stylofw Showcase!](https://usagib.github.io/stylo)
+## Contact
 
-## [Check the CNN page cloned with Stylo!](https://usagib.github.io/stylo/demo.html)
+* Eduardo Bonilla Cáceres - eduardobonillac@gmail.com
+* [My Portfolio](https://usagib.surge.sh)
+* [My Twitter](https://twitter.com/UsagiBonilla)
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+
